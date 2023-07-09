@@ -1,0 +1,20 @@
+program hubla;
+var
+    id,password:string;
+begin
+    writeln('         Login Point Blank');
+    writeln('======================================');
+    writeln('Masukkan id dan password dengan benar!');
+    writeln('======================================');
+    write('ID       : '); readln(id);
+    write('Password : '); readln(password);
+    if (id:=damars56) and (password:=12345) then
+        begin
+            writeln('Anda berhasil login');
+        end
+    else
+        begin
+            writeln('Anda salah memasukkan id atau password');
+        end;
+    readln;
+end.

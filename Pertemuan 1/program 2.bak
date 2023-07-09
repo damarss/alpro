@@ -1,0 +1,10 @@
+program tampil2;
+uses crt;
+begin
+        clrscr;
+        writeln('Politeknik');
+        writeln('Statistika');
+        writeln('STIS');
+        writeln('Jum''at');
+        readln;
+end.

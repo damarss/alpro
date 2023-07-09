@@ -1,0 +1,13 @@
+program hasilpengukuransuhu;
+var
+    suhu: integer;
+begin
+    writeln('Program Pengukuran Suhu');
+    writeln('=======================');
+    write('Suhu (dalam celcius) = '); readln(suhu);
+    if suhu<=0 then
+        writeln('Beku');
+    else if suhu<100 then
+        writeln('Cair');
+    else writeln('Uap');
+end.

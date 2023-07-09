@@ -1,0 +1,30 @@
+program konversi_nilai;
+var
+    tugas,uts,uas,na:real;
+    grade:char;
+begin
+    write('Nilai tugas: '); readln(tugas);
+    write('Nilai UTS  : '); readln(uts);
+    write('Nilai UAS  : '); readln(uas);
+    na:=(20/100)*(tugas)+(30/100)*(uts)+(50/100)*(uas);
+    writeln('Nilai akhir: ',na:0:2);
+    if (na>=0) and (na<=100) then
+        begin
+            if na<20 then
+                grade:='E';
+            else if na<40 then
+                grade:='D';
+            else if na<60 then
+                grade:='C';
+            else if na<80 then
+                grade:='B';
+            else
+                grade:='A';
+        end
+    else
+        begin
+            writeln('Anda salah input nilai!');
+        end;
+    writeln('Grade= ',grade);
+    readln;
+end.

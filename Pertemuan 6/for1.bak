@@ -1,0 +1,9 @@
+program for1;
+
+var
+    i,n:integer;
+
+begin
+    for i:=n downto 1 do
+        write('Anak ayam turun',i);
+end.

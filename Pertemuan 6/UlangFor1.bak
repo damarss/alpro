@@ -1,0 +1,13 @@
+program UlangFor1;
+uses crt;
+var
+    i,n:integer;
+begin
+    clrscr;
+    write('n: ');
+    readln(n);
+
+    for i:=1 to n do
+        writeln(i);
+    readln;
+end.

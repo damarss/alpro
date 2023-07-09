@@ -1,0 +1,30 @@
+program test1;
+var
+    x: real;
+    i: real;
+    {untuk data integer hanya memiliki range antara -32768..32767 dan data integer merupakan bilangan bulat}
+    c: string;
+    {tipe data char hanya bisa menuliskan satu karakter saja}
+    s: string;
+    d: char;
+BEGIN
+    x := -34.55;
+    x := -3.9E-3;
+    WRITELN(x);
+    readln;
+    i := 10;
+    i := i * i;
+    i := 9933;
+    i := -99999;
+    i := 999.44;
+    c := '1';
+    c := '1';
+    {untuk tipe data string seharusnya diberi tanda petik satu}
+    c := 'Bert';
+    c := 'd';
+    WRITELN(c);
+    readln;
+    d := 'c';
+    WRITELN(s);
+    readln;
+END.
